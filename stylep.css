@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Fira+Sans+Condensed&family=Roboto+Slab&display=swap');
+
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.navigation-div{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: url(https://img.freepik.com/premium-vector/green-gradient-background-with-transparent-glass-effect_615931-327.jpg?w=360);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 5;
+
+}
+.menus{
+	font-weight: bolder;
+	color: #123062ed;
+}
+.menus:hover{
+	text-decoration: underline;
+	color: #e9891ced;
+}
+.my-name{
+	font-weight: bolder;
+	font-size: 50px;
+	color: #0c0947f7;
+	letter-spacing: 3px;
+	font-family: AlgerianD;
+}
+.all-section{
+	position: relative;
+	top: 70px;
+	width: 100%;
+}
+.section{
+	width: 100%;
+	height: 100vh;
+	border: 2px solid black;
+}
+.section h1{
+	margin-top: 80px;
+	text-align: center;
+}
+.home-section{
+	border: none;
+	width: 100%;
+	background-image: url(https://img.freepik.com/free-vector/young-woman-uses-computer-work-reduce-infection_1150-34985.jpg);
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 90% 2%;
+	height: 500px
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 10% 4%;
+}
+.logo{
+	font-weight: bolder;
+	font-size: 40px;
+}
+.home-info{
+	font-size: 30px;
+	font-family: Elephant;
+}
+.fsjd{
+	font-family: Elephant;
+	font-size: 30px;
+	color: #e33414;
+	font-weight: bolder;
+}
+.rsme{
+	height: 60px;
+	width: 120px;
+	margin: 20px 30px;
+	border: none;
+	background-color: lightblue;
+	font-weight: bold;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+.rsme:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1.1);
+}
+.about-section{
+	border: none;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 20px;
+}
+.myimg{
+	border-radius: 20%;	
+	box-shadow: 0px 0px 18px lavenderblush;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+.aboutsect{
+	height: 500px;
+}
+.cobjective{
+	padding: 30px 30px;
+	font-size: 22px;
+	margin-top: 50px;
+	text-indent: 20%;
+	font-weight: bolder;
+	width: 50%;
+	margin-left: 100px;
+
+}
+.carrier{
+	margin-left: 150px;
+	text-align: justify;
+}
+.skills-section{
+	border: none;
+	padding: 40px;
+	height: 750px;
+}
+.skill-table{
+	margin-top: 50px;
+	padding: 30px;
+}
+.head-skill{
+	font-family: Book Antiqua;
+	font-weight: bolder;
+	color: #1d8721;
+	font-size: 60px;
+}
+.theading{
+	margin-top: 3px;
+	color: #ff9800f2;
+	font-weight: bolder;
+	font-size: 25px;
+}
+.pcontent{
+	text-align: center;
+	margin-top: 20px;
+}
+td:hover{
+	box-shadow: 0px 0px 20px grey;
+}
+.project-section{
+	padding: 20px;
+	border: none;
+	height: 1200px;
+}
+.project-div{
+	margin-top: 40px;
+}
+.card-desk{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	border: none;
+}
+
+.card-title{
+	color: orangered;
+	font-weight: bolder;
+}
+.card-img-top{
+	height: 200px;
+	width: 200px;
+}
+.contact-section{
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+}
+.for-cont{
+	height: 100vh;
+	width: 50%;
+	margin-left: 10px;
+}
+.form-div{
+	width: 50%;
+	height: 400px;
+	padding: 20px;
+	margin-left: 30px;
+}
+.for-query{
+	height: 100vh;
+	width: 50%;
+}
+.con-heading{
+	align-items: center;
+	color: royalblue;
+	font-weight: bolder;
+	font-size: 60px;
+}
+ul{
+	margin-top: 50px;
+	margin-left: 90px;
+}
+.linked{
+	margin-left: 10px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
